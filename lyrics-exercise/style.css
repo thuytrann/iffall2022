@@ -17,4 +17,26 @@ body{
   pointer-events: none;
 }
 
+.lyrics{
+  position: absolute;
+  bottom: 1vw;
+  left: 1vw;
+  width: 20vw;
+  height: 30vw;
+  overflow-y: auto;
+  padding: 1vw;
+  background-color: #F4F3F3;
+  font-family: botanika-mono-web, monospace;;
+}
+
+h1{
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-size: 1.7vw;
+}
+
+h2{
+  font-size: 1.2vw;
+}
+
 
