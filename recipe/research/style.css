@@ -5,6 +5,10 @@ html{
     
 }
 
+a{
+    color: #258945;
+}
+
 .left-column{
     width: 44vw;
     height: 100vh;
