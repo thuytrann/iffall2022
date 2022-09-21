@@ -1,0 +1,21 @@
+
+html{
+    color: #258945;
+    font-family: 'Crimson Text';
+    
+}
+
+.left-column{
+    width: 44vw;
+    height: 100vh;
+    padding: 0 2vw;
+    left: 0;
+}
+
+.banner-img{
+    width: 50vw;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
