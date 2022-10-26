@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+
+html{
+    color: #960100;
+    font-family: 'Crimson Pro', serif;
+    background-color: #B1CE00;
+    letter-spacing: -.2pt;
+}
+
+
+
+
+ul,li{
+    text-decoration: none ;
+    list-style: none outside none;
+}
+  
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    mix-blend-mode: luminosity;
+}
+
+img:hover{
+    mix-blend-mode: normal;
+}
+
+.sansserif{
+    font-family: interstate, sans-serif;
+}
+
+h1{
+    margin-top: 3vw;
+    font-size: 54pt;
+    letter-spacing: -2pt;
+}
+
+.left-column{
+    width: 50vw;
+    height: 100vh;
+    
+    padding: 0 6vw;
+    left: 0;
+}
+
+.banner-img{
+    width: 50vw;
+    
+    position: fixed;
+    right: 0;
+    top: -100px;
+}
+
+.landing{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.intro-details{
+    padding-bottom: 2vw;
+}
+
+.intro-details p{
+    font-size: 18px;
+    padding: 0 1vw;
+}
+
+.details-col{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    padding: 3vw 0;
+}
+
+.col{
+    border-left: 1px solid #960100;
+    padding: 2vw 1vw ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col:last-child{
+    border-right: 1px solid #960100;
+}
+
+.category{
+    padding-bottom: 1vw;
+}
+
+.col-stat{
+    font-size: 24px;
+    
+}
+
+.stat-num{
+    display: block;
+    font-size: 45px;
+    line-height: 80%;
+}
+
+.scroll{
+    display: block;
+    width: 15%;
+    margin: 0 auto; 
+    mix-blend-mode: normal;
+}
+
+
+
