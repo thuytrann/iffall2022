@@ -15,6 +15,10 @@ h1 {
      margin-bottom: 40px;
 }
 
+a{
+    text-decoration: none;
+}
+
 .button_container {
     border: 1px solid #ddd;
     margin: 0 10px 10px 0;
@@ -25,11 +29,19 @@ h1 {
     overflow: hidden;
     box-sizing: border-box;
     text-align: center;
+    position: relative;
 }
 
 .button_container img{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
     width: 150px;
 }
+
 
 
 a#btn_spotify {
@@ -153,8 +165,7 @@ a#btn_indiegogo span {
 
 #btn_cn img{
     width: 60%;
-    
-    margin: 75px auto;
+
 }
 
 #btn_cn img:hover{
@@ -163,9 +174,7 @@ a#btn_indiegogo span {
     transition-timing-function: ease;
 }
 
-#btn_ideo img{
-    margin-top: 110px;
-}
+
 
 #btn_ideo:hover{
     animation: showHide 1s ease-in alternate infinite;
@@ -179,9 +188,10 @@ a#btn_indiegogo span {
 
 #btn_ibm img{
     width: 200px;
-    margin-top: 100px;
+ 
     
 }
+
 
 #btn_ibm:hover{
     transform: translateY(50px);
@@ -200,8 +210,7 @@ a#btn_indiegogo span {
 #btn_coca{
     display: inline-block;
     position: relative;
-    margin:auto;
-    margin-top: 100px;
+  
     padding: 42px 20px;
     background-color: #fff;
     text-decoration: none;
@@ -246,7 +255,7 @@ a#btn_coca span {
 
 
 a#btn_lyft img{
-    margin-top: 80px;
+  
     width: 40%;
     transition: transform .7s ease-in-out;
 }
@@ -255,3 +264,186 @@ a#btn_lyft img:hover{
     transform: rotate(50deg);
 }
 
+#btn_harley img{
+    
+    opacity: .5;
+    transition: opacity .7s ease-in-out;
+}
+
+#btn_harley img:hover{
+    opacity: 1;
+}
+
+#btn_kors img{
+    transition: transform .7s ease-in-out;
+}
+
+#btn_kors img:hover{
+    transform:skew(50deg);
+}
+
+#btn_samsung{
+    color: #14279B;
+    background-color: white;
+    font-weight: bold;
+    
+    padding: 20px 50px;
+    border-radius: 60px;
+
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: background-color .7s ease-in-out;
+}
+
+#btn_samsung:hover{
+    color: white;
+    background-color: #14279B;
+
+
+    
+
+    
+}
+
+#btn_dime img{
+    transition: transform .7s ease-in-out;
+}
+
+#btn_dime img:hover{
+    transform:rotate(520deg);
+    
+    
+}
+
+#btn_nbc img{
+    transition: transform .7s ease-in-out;
+}
+
+#btn_nbc img:hover{
+    
+    transform: translate(-50%, -50%);
+    transform: rotateY(180deg);
+}
+
+#btn_nike{
+    font-size: 30pt;
+    color: #000;
+    transition: color .7s ease-in-out;
+    font-weight: bold;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#btn_nike:hover{
+    color: #14279B;
+}
+
+#btn_mbg img{
+    transition: filter .7s ease-in-out;
+
+}
+
+#btn_mbg img:hover{
+    filter: drop-shadow(16px 16px 20px green) ;
+}
+
+#btn_run img{
+    transition: transform .7s ease-in-out;
+}
+
+#btn_run img:hover{
+    transform: scale(1);
+    transform: translate(-50%, -70%);
+    box-shadow: 0px 0px 20px #eb1478;
+}
+
+#btn_moo{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    color: #2ebd59;
+    font-size: 30pt;
+    transition: border .3s ease-in-out;
+    padding: 40px 20px;
+}
+
+#btn_moo:hover{
+    border: 3px solid #2ebd59;
+}
+
+#btn_fitbit img{
+    transition: filter .3s ease-in-out;
+}
+
+#btn_fitbit img:hover{
+    filter: blur(5px);
+}
+
+
+#btn_kittens img{
+    transition: filter .3s ease-in-out;
+
+}
+
+#btn_kittens img:hover{
+    filter: invert(75%);
+}
+
+#btn_molly img{
+    transition: transform .3s ease-in-out;
+}
+
+#btn_molly img:hover{
+    transform: scale(.8);
+}
+
+#btn_newyorker img{
+    transition: filter .3s ease-in-out;
+
+}
+
+#btn_newyorker img:hover{
+    filter: drop-shadow(16px 16px 20px black);
+}
+
+#btn_npr img{
+    transition: filter .3s ease-in-out;
+}
+
+#btn_npr img:hover{
+    filter: hue-rotate(90deg);;
+
+}
+
+#btn_ig{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    color: #2ebd59;
+    font-size: 20pt;
+    transition: border .3s ease-in-out;
+    padding: 20px 40px;
+    border-radius: 60px;
+    color: #bc1888;
+    transition: background .3s ease-in-out;
+}
+
+#btn_ig:hover{
+    color: white;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
